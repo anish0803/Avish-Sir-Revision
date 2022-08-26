@@ -33,19 +33,26 @@
 // => a = arr[6] = 8 return false => [1,3,4,5]
 // console.log('fileredArray' , filteredArray)
 
-let obj = {
-    name:"Avish",
-    age:[20,21,22],
-    profesion:"Software Engineer"
-}
-for(let key in obj){
-    console.log(key, obj[key])
-}
+// let obj = {
+//     name:"Avish",
+//     age:[20,21,22],
+//     profesion:"Software Engineer"
+// }
+// for(let key in obj){
+//     console.log(key, obj[key])
+// }
 
 
-let arrayOfObjects = [{name:'Avish',age:21} , {name:"Rahul" , age:17} , {name:"Karan" , age:20}]
-let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
-    return a["age"] >18
-})
-console.log(filteredArrayOfObjects)
+// let arrayOfObjects = [{name:'Avish',age:21} , {name:"Rahul" , age:17} , {name:"Karan" , age:20}]
+// let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
+//     return a["age"] >18
+// })
 
+
+// function a(a,b){
+//     console.log(a,b)
+// }
+// // Re use the code using function
+// a("Global" , "Home")
+//  a();
+ 
