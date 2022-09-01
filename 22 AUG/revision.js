@@ -19,6 +19,13 @@ let arrayOfObjects = [
  let filteredArrayOfObject =  arrayOfObjects.sort((a, b) => a.age - b.age);
   console.log(filteredArrayOfObject);
 
+
+  const array = [{name:"Avish",height:5.7},{name:"Anish",height:5.9}]
+let filterarray = array.sort((a,b)=>{
+return a.height - b.height 
+})
+console.log(filterarray)
+
   
 
  
